@@ -1,0 +1,26 @@
+/* css for personal site */
+
+body {
+    background: #000000;
+    color: #C0C0C0;
+    font-family: sans-serif;
+    padding-inline-start: 3.0vw;
+    padding-inline-end: 3.0vw;
+}
+
+main {
+    margin-block-start: 5vh;
+    margin-block-end: 5vh;
+}
+
+p {
+    max-inline-size: 70ch;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#container {
+    margin-block-start: 5vh;
+}
