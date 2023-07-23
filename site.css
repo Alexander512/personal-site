@@ -1,26 +1,78 @@
 /* css for personal site */
 
+a {
+    margin-inline-start: 10px;
+}
+
 body {
     background: #000000;
     color: #C0C0C0;
-    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
     padding-inline-start: 3.0vw;
     padding-inline-end: 3.0vw;
 }
 
+footer {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+
+html {
+    height: 100%;
+}
+
+img {
+    block-size: auto; 
+    inline-size: clamp(20px, 1.65vw, 30px);
+    vertical-align: text-top;
+}
+
 main {
-    margin-block-start: 5vh;
-    margin-block-end: 5vh;
+    flex: 1 0 auto;
 }
 
 p {
-    max-inline-size: 70ch;
+    max-inline-size: 80ch;
+}
+
+table {
+    border-spacing: 1.5vw 0.25vw;
 }
 
 ul {
     list-style-type: none;
 }
 
-#container {
+.container {
     margin-block-start: 5vh;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.small-text {
+    font-size: clamp(18px, 1.5vw, 32px);
+}
+
+.medium-text {
+    font-size: clamp(32px, 2.25vw, 48px);
+}
+
+.large-text {
+    font-size: clamp(48px, 3.50vw, 72px);
+}
+
+.color-text {
+    color: #4D4DFF;
+}
+
+@media (max-width: 600px) {
+    table {
+        border-spacing: 1.5vw 2.5vw;
+    }
 }

@@ -2,6 +2,9 @@
 <html lang='en-us'>
     <head>
         <!-- Alexander Stoisolovich personal site -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='site.css'>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
@@ -10,55 +13,54 @@
     <body>
 
         <header>
-            <h1>ALEXANDER STOISOLOVICH</h1>
-            <p>
-                SOFTWARE DEVELOPMENT / MATERIALS ENGINEERING / STATISTICS
-            </p>
+            <p class='medium-text'>ALEXANDER STOISOLOVICH</p>
         </header>
 
         <main>
-            <h2>ABOUT</h2>
+            <h1 class='large-text'>SOFTWARE DEVELOPER</h1>
             <div>
-                <p>
-                    I have always been passionate about building things. After completing 
-                    degrees in physics and materials engineering I was an industrialization
-                    engineer in the automotive and aerospace industries, where I was responsible
-                    for the development of new manufacturing processes and the launch of new products.
-                    During this time I became interested in the use of statistics and statistical programming
-                    for the optimization of material properties during the manufacturing process. This led
-                    to an interest in software development and I now work in the aerospace industry on
-                    a connected device (IoT) project. 
-                </p>
-            </div>
+                <div class='container'>
+                    <h2 class='medium-text'>ABOUT</h2>
+                    <p class='small-text'>
+                        I have always been passionate about building things. After completing 
+                        degrees in physics and materials engineering I was an industrialization
+                        engineer in the automotive and aerospace industries, where I was responsible
+                        for the development of new manufacturing processes and the launch of new products.
+                        During this time I became interested in the use of statistics and statistical programming
+                        for the optimization of material properties during the manufacturing process. This led
+                        to an interest in software development and I now work in the aerospace industry on
+                        a connected device (IoT) project. 
+                    </p>
+                </div>
 
-            <div id='container'>
-                <h2>SKILL SETS</h2>
-                    <div>
-                        <h3>SOFTWARE DEVELOPMENT</h3>
-                        <ul>
-                            <li>Relational Databases - PostgreSQL Preferred</li>
-                            <li>Web API Development - .NET Core with Entity Framework Core</li>
-                            <li>REST and GraphQL - Hot Chocolate</li>
-                            <li>Web API Testing - Postman</li>
-                        </ul>
-
-                        <h3>MATERIALS ENGINEERING</h3>
-                        <ul>
-                            <li>Heat Treatement of Metallic Materials</li>
-                            <li>High Temperature Composite Materials</li>
-                            <li>Material Property Optimization</li>
-                        </ul>
-
-                        <h3>STATISTICS</h3>
-                        <ul>
-                            <li>Design of Experiments</li>
-                            <li>Descriptive Statistics</li>
-                            <li>Inferential Statistics</li>
-                            <li>Industrial Statistics</li>
-                        </ul>
-                    </div>
+                <div class='container'>
+                    <h2 class='medium-text'>TECHNOLOGIES</h2>
+                    <table class='small-text'>
+                        <tr>
+                            <td>Relational Databases</td>
+                            <td class='color-text'>PostgreSQL Preferred</td>
+                        </tr>
+                        <tr>
+                            <td>Web API Development</td>
+                            <td class='color-text'>.NET Core with Entity Framework Core</td>
+                        </tr>
+                        <tr>
+                            <td>REST and GraphQL</td>
+                            <td class='color-text'>.NET Core MVC and Hot Chocolate</td>
+                        </tr>
+                        <tr>
+                            <td>Web API Testing</td>
+                            <td class='color-text'>Postman</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </main>
+
+        <footer>
+            <p class='small-text display-inline'>&copy; ALEXANDER STOISOLOVICH</p>
+            <a href='https://www.linkedin.com/in/alexander-stoisolovich/'><img src='./public/LI-In-BUG.png' alt='linkedin logo'/></a>
+        </footer>
 
     </body>
 </html>
