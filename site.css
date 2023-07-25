@@ -63,12 +63,8 @@ ul {
     font-size: clamp(18px, 1.5vw, 32px);
 }
 
-.medium-text {
-    font-size: clamp(32px, 2.25vw, 48px);
-}
-
 .large-text {
-    font-size: clamp(48px, 3.50vw, 72px);
+    font-size: clamp(32px, 2.25vw, 48px);
 }
 
 .color-text {
