@@ -13,8 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    padding-inline-start: 3.0vw;
-    padding-inline-end: 3.0vw;
+    padding-inline-start: 3vw;
+    padding-inline-end: 3vw;
 }
 
 footer {
@@ -41,15 +41,12 @@ main {
 }
 
 p {
-    max-inline-size: 80ch;
-}
-
-table {
-    border-spacing: 1.5vw 0.25vw;
+    max-inline-size: 65ch;
 }
 
 ul {
     list-style-type: none;
+    padding-inline-start: 0vw;
 }
 
 .container {
@@ -61,7 +58,7 @@ ul {
 }
 
 .small-text {
-    font-size: clamp(18px, 1.5vw, 32px);
+    font-size: clamp(14px, 1.35vw, 28px);
 }
 
 .medium-text {
@@ -69,15 +66,9 @@ ul {
 }
 
 .large-text {
-    font-size: clamp(32px, 2.25vw, 48px);
+    font-size: clamp(34px, 2.25vw, 48px);
 }
 
 .color-text {
     color: #4D4DFF;
-}
-
-@media (max-width: 600px) {
-    table {
-        border-spacing: 1.5vw 2.5vw;
-    }
 }
