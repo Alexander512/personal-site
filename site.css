@@ -58,7 +58,7 @@ ul {
 }
 
 .small-text {
-    font-size: clamp(14px, 1.35vw, 28px);
+    font-size: clamp(14px, 1.375vw, 28px);
 }
 
 .medium-text {
